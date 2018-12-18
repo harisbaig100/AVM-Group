@@ -1,0 +1,39 @@
+{
+  "name": "AVM-Group",
+  "version": "1.0.0",
+  "description": "AVM-Group",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.12",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harisbaig100/aloha-crm"
+  },
+  "author": "M.Haris Baig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harisbaig100/aloha-crm/issues"
+  },
+  "homepage": "https://github.com/harisbaig100/aloha-crm"
+}
