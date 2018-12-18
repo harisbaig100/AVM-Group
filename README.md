@@ -1,6 +1,8 @@
-# aloha-CRM
+# AVM-Group
+This is opensource app, built on the top of MERN_STACK.
 
-This is Customer-relationship management app, built on the top of MERN_STACK.
+![alt text](https://github.com/harisbaig100/AVM-Group/blob/master/Screen%20Shot%202018-12-18%20at%207.00.22%20PM.png)
+
 
 ## Available Scripts
 
